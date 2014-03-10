@@ -1,4 +1,4 @@
-This is an example Arduino/MSP430 demo for the Epaper developement board.
+This is an example Arduino/MSP430 demo for the Epaper development board.
 
 	Works with all our EPaper development boards: 
 		http://www.jayconsystems.com/epaper-development-board-v1-1-44.html
@@ -19,6 +19,8 @@ Pin BUSY = 7
 Pin EPD_CS = 8
 Pin FLASH_CS = 9
 Pin SW2 = 12
+
+You will also need to wire the up the SPI interface which is specific to the board you are using.
 
  
 Written by  Pervasive Displays, Inc.
